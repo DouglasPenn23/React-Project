@@ -1,0 +1,22 @@
+/* Styles the Navigation Bar Element */
+.nav-bar{
+    background-color: Black;
+    color: white;
+  }
+  
+  /* Controls the unordered list in Navigation Bar Element */
+  .nav-bar-list-items{
+  
+    list-style-type: none;
+  }
+  
+  /* Controls the Navigation List items themselves */
+  .nav-list-item{
+    
+  }
+  
+  /* Controls the anchor elements within the Navigation Bar list */
+  .nav-list-anchor{
+    text-decoration: none;
+    color: white;
+  }
