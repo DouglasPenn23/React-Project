@@ -6,17 +6,26 @@
   
   /* Controls the unordered list in Navigation Bar Element */
   .nav-bar-list-items{
-  
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   /* Controls the Navigation List items themselves */
   .nav-list-item{
-    
+    padding-right: 30px;
   }
   
   /* Controls the anchor elements within the Navigation Bar list */
   .nav-list-anchor{
     text-decoration: none;
-    color: white;
+    color: white;   
   }
+
+  .nav-list-anchor:hover {
+    background-color: white;
+    color: black;
+  } 
+
+ 
